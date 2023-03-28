@@ -81,7 +81,7 @@ const ProductInput = () => {
         toast("Enter valid Product Name!");
       }
     } else {
-      toast("Amount is required!");
+      toast("Positive amount is required!");
     }
   };
 
