@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.no-arrow::-ms-expand,
+.no-arrow::after {
+  display: none;
+}
+
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label {
+  top: -0.65rem;
+  left: 0.75rem;
+  font-size: 0.9rem;
+  color: black;
+  background-color: #fffffff0;
+  width: fit-content;
+  padding: 0;
+}
+
+.create-recept-btn {
+  color: rgb(14 159 110 / var(--tw-bg-opacity));
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.create-recept-btn:hover {
+  /* background-color: rgb(14 159 110) !important; */
+  background-color: rgb(14 159 110 / var(--tw-bg-opacity)) !important;
+}

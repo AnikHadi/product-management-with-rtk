@@ -1,0 +1,92 @@
+export const initialState = [
+  {
+    productName: "Double A Paper",
+    productCategory: "Stationary",
+    unit: "rim",
+    price: 420,
+  },
+  {
+    productName: "Tissue",
+    productCategory: "Toiletries",
+    unit: "pc",
+    price: 140,
+  },
+  {
+    productName: "Stapler Machine Kangaroo",
+    productCategory: "Stationary",
+    unit: "pc",
+    price: 100,
+  },
+  {
+    productName: "Pin Kangaroo 24x6",
+    productCategory: "Others",
+    unit: "pkt",
+    price: 21,
+  },
+  {
+    productName: "Calculator",
+    productCategory: "Stationary",
+    unit: "pc",
+    price: 15,
+  },
+  {
+    productName: "Handwash",
+    productCategory: "Toiletries",
+    unit: "pc",
+    price: 10,
+  },
+  {
+    productName: "Ocean Gel Pen",
+    productCategory: "Others",
+    unit: "pc",
+    price: 40,
+  },
+  {
+    productName: "Brush",
+    productCategory: "Toiletries",
+    unit: "pc",
+    price: 100,
+  },
+  {
+    productName: "Eraser",
+    productCategory: "Others",
+    unit: "pc",
+    price: 30,
+  },
+  {
+    productName: "Sharpener",
+    productCategory: "Stationary",
+    unit: "pc",
+    price: 20,
+  },
+  {
+    productName: "Tea 400gm",
+    productCategory: "Tea Materials",
+    unit: "pkt",
+    price: 40,
+  },
+  {
+    productName: "Green Tea Jesmin",
+    productCategory: "Tea Materials",
+    unit: "pkt",
+    price: 20,
+  },
+  {
+    productName: "Tea Ispahani 200gm",
+    productCategory: "Tea Materials",
+    unit: "pkt",
+    price: 20,
+  },
+  {
+    productName: "Tea Bag",
+    productCategory: "Tea Materials",
+    unit: "pkt",
+    price: 20,
+  },
+  {
+    productName: "Tea Taja 200gm",
+    productCategory: "Tea Materials",
+    unit: "pkt",
+    price: 20,
+  },
+];
